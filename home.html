@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Green Social & AI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  <script src="ai.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>🌳 Green Social & AI</h1>
+  <button onclick="logout()">Logout</button>
+</header>
+
+<section class="hero">
+  <h2>Peduli Lingkungan dengan Teknologi AI</h2>
+</section>
+
+<section class="upload">
+  <h3>Unggah Foto / File Lingkungan</h3>
+  <input type="file" accept="image/*">
+</section>
+
+<section class="materi">
+  <h2>Materi 1: AI dalam Klasifikasi Sampah</h2>
+  <p>
+    AI dapat digunakan untuk mengenali dan mengelompokkan jenis sampah seperti organik dan anorganik.
+    Teknologi ini membantu pengelolaan sampah lebih efisien, tetapi masih terkendala biaya dan kesadaran masyarakat.
+  </p>
+  <b>Pertanyaan:</b>
+  <p>Mana yang lebih penting: teknologi AI atau kesadaran masyarakat?</p>
+  <textarea placeholder="Tulis aspirasi Anda..."></textarea>
+  <button>Kirim Aspirasi</button>
+</section>
+
+<section class="materi">
+  <h2>Materi 2: Edukasi Sosial dan Etika AI</h2>
+  <p>
+    AI membantu pengambilan keputusan lingkungan, namun harus digunakan secara etis dan bertanggung jawab.
+  </p>
+  <b>Pertanyaan:</b>
+  <p>Apakah manusia boleh sepenuhnya bergantung pada AI?</p>
+  <textarea placeholder="Tulis aspirasi Anda..."></textarea>
+  <button>Kirim Aspirasi</button>
+</section>
+
+<section class="ai">
+  <h2>🤖 AI Klasifikasi Gambar (Contoh)</h2>
+  <p>AI akan mengenali gambar lingkungan menggunakan TensorFlow.js</p>
+  <button onclick="loadModel()">Aktifkan AI</button>
+  <p id="ai-status"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
