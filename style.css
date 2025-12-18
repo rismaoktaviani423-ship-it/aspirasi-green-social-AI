@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e8f5e9;
+}
+
+header {
+  background: #1b5e20;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+  background-size: cover;
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+textarea, input, button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-body {
+  background: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e");
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(255,255,255,0.9);
+  width: 300px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
